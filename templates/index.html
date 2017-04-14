@@ -1,0 +1,28 @@
+<html>
+<head>
+    <link rel="stylesheet"
+          href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.css"/>
+    <title>Ahm Lee's Circle CI Challenge</title>
+</head>
+<body>
+<div class="site-wrapper">
+    <div class="site-wrapper-inner">
+        <h1>Ahm Lee's Circle CI Challenge</h1>
+        <h2>Super simple (as you requested)</h2>
+        <button id="toggle" onclick="textToggle()">toggle on</button>
+        <script>
+            function textToggle() {
+                var change = document.getElementById("toggle");
+                if (change.innerHTML == "toggle on")
+                {
+                    change.innerHTML = "toggle off";
+                }
+                else {
+                    change.innerHTML = "toggle on";
+                }
+            }
+        </script>
+    </div>
+</div>
+</body>
+</html>
